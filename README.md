@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 一个简洁优雅的 XeLaTeX 简历模板
 
 Hit branch [master](https://github.com/billryan/resume/tree/master) if you wanna an English résumé.
@@ -141,3 +142,6 @@ Copyrighted fonts are not subjected to this License.
 总的来说这个模板适合找工作用，而且是偏技术型的一页纸简历。
 
 祝大家玩的开心 :)
+=======
+# Resume
+>>>>>>> 906a12259b2577b4c1c2d8b70e13bfbcb17b6197
