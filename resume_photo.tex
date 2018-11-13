@@ -1,0 +1,77 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+\usepackage{graphicx}
+\usepackage{tabu}
+\usepackage{multirow}
+\usepackage{progressbar}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\Large{
+  \begin{tabu}{ c l r }
+   \multirow{5}{1in}{\includegraphics[width=0.88in]{avatar}} & \scshape{王 琦文} & {Python~}\progressbar{0.75} \\
+    & \email{isqiwen@gmail.com} & {C/C++~}\progressbar{0.5} \\
+    & \phone{(+86) 189-8370-2283} & {Linux~}\progressbar{0.5} \\
+    & \linkedin[isqiwen]{https://www.linkedin.com/in/琦文-王-b9804b163/} & {Algorithm~}\progressbar{0.3} \\
+    & \github[github.com/isqiwen]{https://github.com/isqiwen} & {Mathematics~}\progressbar{0.3}
+  \end{tabu}
+}
+
+\section{\faGraduationCap\ 教育经历}
+\datedsubsection{\textbf{西南大学 （SWU）}}{2015 -- 目前}
+\textit{主修管理学学士学位，辅修数学学士学位。} 
+
+\section{\faUsers\ 项目经历}
+\datedsubsection{\textbf{MCM/ICM C}}{01/2018}
+\role{Python，Matlab}{独立实现} 
+简单介绍: 用LSTM以预测美国四个州的未来50年的降水量。
+\begin{itemize}
+  \item 实现了层次分析法
+  \item 用keras实现了LSTM
+  \item 实现了粒子群优化算法
+  \item 取得了 Honour Prize
+\end{itemize}
+
+\datedsubsection{\textbf{Kaggle What's Cooking}}{10/2018}
+\role{Python}{个人项目}
+简单介绍: 使用逻辑回归根据菜品的原料对菜品所属的菜系进行预测。
+\begin{itemize}
+  \item 实现了逻辑回归
+  \item 评分在0.78左右
+\end{itemize}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+% \section{\faCogs\ Skills}
+% \begin{itemize}[parsep=0.5ex]
+%   \item Programming Languages: C == Python > C++ > Java
+%   \item Platform: Linux
+%   \item Development: Web, xxx
+% \end{itemize}
+
+% \section{\faHeartO\ Honors and Awards}
+% \datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
+% \datedline{Other awards}{2015}
+
+\section{\faInfo\ 其它}
+\begin{itemize}[parsep=0.5ex]
+  \item Blog: http://wangqiwen.xyz
+  \item GitHub: https://github.com/isqiwen
+  \item Languages: English - Just so so, Chinese - Native speaker
+  \item Interest: I am very interested in artificial intelligence and robots.
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
